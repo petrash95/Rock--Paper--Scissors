@@ -1,9 +1,6 @@
-<html>
-   <head>
 
-      <script type="text/javascript">
 
-      var userChoice = prompt("Do you choose rock, paper or scissors?");
+var userChoice = prompt("Do you choose rock, paper or scissors?");
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
 computerChoice = "rock";
@@ -52,6 +49,3 @@ else if(choice1 === "paper"){
             compare(userChoice,computerChoice);
 }
 
-   </head>
-
-</html>
